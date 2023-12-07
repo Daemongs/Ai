@@ -1,0 +1,81 @@
+package JavaBasic_ch01.sec12;
+
+public class Calculater {
+
+
+		public static void main(String[] args) {
+		//5명 아르바이트생 급여 계산하는 프로그램 작성하기
+		// 1명일 경우 급여 계산하기
+		// 형식 변수형태, 변수명 ; 변수명 = 값;
+		String name1; 
+		name1="홍길동"; //이름
+		
+		int basicPay=50000; //급여
+		String phoneNumber = "010-123-1234"; //전화번호
+		String accountNumber = "국민 123-12-1234"; //계좌번호
+		String dept="알바생"; //직급
+		boolean sex = true; //성별 남자
+		double tax = 0.03; //세금 비율
+		
+		//출력하기
+		System.out.println(name1 + " " + basicPay + " " + phoneNumber);
+		System.out.println(accountNumber + " " + dept + " " + sex + " "+ tax);
+		
+		
+		String name2; 
+		name2="이순신"; //이름
+		
+		int basicPay2=30000; //급여
+		String phoneNumber2 = "010-234-5678"; //전화번호
+		String accountNumber2 = "우리 123-12-1234"; //계좌번호
+		String dept2="정직원"; //직급
+		boolean sex2 = true; //성별 남자
+		double tax2 = 0.02; //세금 비율
+		
+		//출력하기
+		System.out.println(name2 + " " + basicPay2 + " " + phoneNumber2);
+		System.out.println(accountNumber2 + " " + dept2 + " " + sex2 + " "+ tax2);
+		
+		
+		String name3;
+		name3="이경미"; //이름
+		
+		int basicPay3=100000; //급여
+		String phoneNumber3 = "010-254-5678"; //전화번호
+		String accountNumber3 = "하나 123-12-1234"; //계좌번호
+		String dept3="팀장"; //직급
+		boolean sex3 = false; //성별 여자
+		double tax3 = 0.0015; //세금 비율
+		
+		//출력하기
+		System.out.println(name3 + " " + basicPay3 + " " + phoneNumber3);
+		System.out.println(accountNumber3 + " " + dept3 + " " + sex3 + " "+ tax3);
+		
+				
+		String name4;
+		name4="정현희"; //이름
+		
+		int basicPay4=10000; //급여
+		String phoneNumber4 = "010-8744-3334";//전화번호
+		String accountNumber4 = "국민 555-65-8989";//계좌번호
+		String dept4="사장";//직급
+		boolean sex4 = false; //성별 여자
+		double tex4 = 0.025; //세금 비율
+		
+		//출력하기
+		System.out.println("4번 알바 정보 : "+ name4 + "  " + basicPay4 + " " + phoneNumber4 );
+		System.out.println(accountNumber4 + " " + dept4 + " " + sex4 + " " + tex4);
+		
+		
+		int sum1 = 10 * basicPay;
+		
+		double texCal = sum1*tax;
+		//실수령액을 계산한다.
+		
+		double salary = sum1-texCal; // 정수형 - 실수형
+		
+		System.out.println(sum1 + " " + texCal + " " + salary);
+		}
+		
+}
+

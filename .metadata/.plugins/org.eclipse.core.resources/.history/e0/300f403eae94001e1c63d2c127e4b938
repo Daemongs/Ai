@@ -1,0 +1,43 @@
+package ch05.sec03;
+
+public class 확인문제5장 {
+
+	public static void main(String[] args) {
+
+		int[][] array = {
+				{95,86},
+				{83,92,926},
+				{78,83,93,87,88}
+				
+		};
+		System.out.println( array.length );
+		System.out.println( array[2].length );
+		
+		
+		//7번
+		int[] array1 = {1, 52, 3, 6, 2};
+		
+		
+		int max = array1[0]; //최대값을 넣을 변수 선언 (0)
+		
+		for (int i=1; i<array1.length; i++) {
+			if (array1[i]>max) {
+				max = array1[i];
+			}
+		}
+		
+		System.out.println("최대값:   "+max);
+
+		int min = array1[0]; //최대값을 넣을 변수 선언 (0)
+		
+		for (int i=1; i<array1.length; i++) {
+			if (array1[i]>max) {
+				min = array1[i];
+			}
+		}
+		
+		System.out.println("최소값:   "+min);
+
+	}
+
+}

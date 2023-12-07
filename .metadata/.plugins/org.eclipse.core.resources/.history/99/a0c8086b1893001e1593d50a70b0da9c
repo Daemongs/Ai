@@ -1,0 +1,18 @@
+package ch02.sec09;
+
+public class StringConcatExample {
+
+	public static void main(String[] args) {
+		//숫자 연산
+		int result1 = 10-2+5;
+		System.out.println(result1);
+		
+		//결합 연산
+		String result2 = 10+3+"6";
+		System.out.println(result2);
+		
+
+
+	}
+
+}

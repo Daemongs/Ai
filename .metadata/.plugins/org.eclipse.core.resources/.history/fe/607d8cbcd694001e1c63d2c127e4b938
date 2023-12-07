@@ -1,0 +1,18 @@
+package JavaBasic3;
+
+public class 자동차판매현황 {
+	
+	//멤버필드로 만들기
+	String 차량명;
+	int 차량총액;
+	int 인도금;
+	int 할부원금;
+	int 상환기간;
+	int 월납입금;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

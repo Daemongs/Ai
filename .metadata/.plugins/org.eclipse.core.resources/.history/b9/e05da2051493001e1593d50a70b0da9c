@@ -1,0 +1,17 @@
+package ch01.sec11;
+
+public class Hello {
+	// 프로그램 실행 진입점
+	public static void main(String[] args) {
+		//콘솔에 출력하는 실행문
+		
+		int x;
+		x =1 ;
+		int y = 2;
+		int result = x+y;
+		System.out.println(result);
+				
+		System.out.println("Hello, Java");
+	}
+
+}

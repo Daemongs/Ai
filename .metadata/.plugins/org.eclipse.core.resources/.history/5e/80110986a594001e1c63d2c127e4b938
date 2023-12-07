@@ -1,0 +1,9 @@
+package ch05.sec03;
+
+public enum Week {
+	SUNDAY
+	MONDAY
+	TUESDAY
+	WEDNESSDAY
+	
+}

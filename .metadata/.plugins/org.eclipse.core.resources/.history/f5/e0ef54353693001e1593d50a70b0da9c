@@ -1,0 +1,51 @@
+package ch04.sec01;
+
+public class IF문02 {
+
+	public static void main(String[] args) {
+		// 만약에~ 조건이 참이면 / 거짓이면?
+		// 90~100 "A" 89~80 "B"
+
+		int score = 77;
+		
+		if(score >= 90) {
+			System.out.println("점수가 90점보다 큽니다.");
+			System.out.println("등급은 A입니다");
+		};
+		
+		if (80 <= score && score <= 89){ //추가 : score가 90이상이 아닌 경우
+			System.out.println("점수가 평균치 수준입니다.");
+			System.out.println("등급은 B입니다");
+
+		};
+		
+		if (70 <= score && score <= 79){ //추가 : score가 70이상이 아닌 경우
+			System.out.println("점수가 평균치보다 작습니다.");
+			System.out.println("등급은 C입니다");
+			
+			
+		};
+		
+		//a>=10이고 b<=20이거나 c==20이면 합격입니다. 출력하기
+		
+		int a=20, b=10, c=20;
+		
+		if (a>=10 && b <= 20 || c==20) {
+			System.out.println("합격");
+		}
+				
+		// d !=0이고 e가 NaN이고 f가 거짓이면 "잘못된 코드입니다" 아니면 "훌륭한 코드입니다"
+		int d = 10;
+		double e = 10 /0.0;
+		boolean f = false;
+		if(d !=0 && Double.isNaN(e) && !f) {
+			System.out.println("잘못된 코드입니다.");
+		} else {
+			System.out.println("훌륭한 코드입니다.");
+			
+		}
+		
+	}
+
+}
+

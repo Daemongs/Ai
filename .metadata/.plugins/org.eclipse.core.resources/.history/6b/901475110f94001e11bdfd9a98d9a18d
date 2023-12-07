@@ -1,0 +1,71 @@
+package ch05.sec02;
+
+public class ArrayCreateByValueListExample1 {
+	public static void main(String[] args) {
+		//배열 변수 선언과 배열 생성
+	 
+	 String[]season = {"Spring","Summer","Fall","Winter"};
+	 
+	 //배열의 항목값 읽기
+	 System.out.println("season[0] : " +season[0]);
+	 System.out.println("season[1] : " +season[1]);
+	 System.out.println("season[2] : " +season[2]);
+	 System.out.println("season[3] : " +season[3]);
+	 
+	 //인덱스 1번 항목의 값 변경
+	 season[1] = "여름";
+	 System.out.println("season[1]" + season[1]);
+	 System.out.println();
+	 
+	 //배열 변수 선언과 배열 생성
+	 int[] scores = {83,90,87};
+	 
+	 //총합과 평균 구하기
+	 	int sum = 0;
+	 	for(int i=0; i<3; i++) {
+	 	sum += scores[i];
+	 	}
+	 	System.out.println("총합 :" + sum);
+	 	double avg = (double) sum / 3;
+	 	System.out.println("평균 :" + avg);
+
+	 	
+	 	//성적표 만들기
+	 	//이름	점수
+	 	//홍길동	100
+	 	//김수진	90
+	 	//이경주	85
+	 	
+	 	//1차원 배열 만들어서 출력해보세요
+	 	String[]name2 = {"홍길동","김수지","이경주"};
+	 	int[]score2 = {100,90,85};
+	 	
+		for(int i=0; i<score2.length;i++) {
+	 		System.out.println(name2[i]+" " +score2[i]);
+	 		
+	 	}
+		
+		//자동차 판매현황을 배열에 넣어서 출력하기
+	 	String[]name3 = {"싼타페","코란도"};
+	 	int[]price3 = {35000000, 24000000};
+	 	
+		for(int i=0; i<price3.length;i++) {
+	 		System.out.println(name3[i]+" " +price3[i]);
+	 		
+		//대출 상황
+	 		
+	 	String[]성명 = {"이민주","남지철","김춘복","민애라"};
+	 	int[]대출금액 = {27000000, 15000000, 15000000, 12000000};
+	 	int[]기간 = {48, 60, 60, 60}
+	 	
+	 	for(int i=0; i<성명.length ; i++)
+	 		System.out.println("성명   대출종류   대출금액   기간")
+	 		
+	 	}
+		
+		
+		
+		
+	}
+}
+	 

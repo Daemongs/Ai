@@ -1,0 +1,19 @@
+2023-12-04 10:08:45,822 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2023-12-04 10:37:25,385 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-05 09:47:29,024 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-05 09:49:28,008 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-05 09:53:31,240 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-05 10:08:05,236 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-05 16:54:55,812 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-12-05 16:57:53,974 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 17.0.1+12
+2023-12-05 16:57:53,999 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-12-05 16:57:54,026 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@78ae562{/help,null,AVAILABLE}
+2023-12-05 16:57:54,045 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@24764d64{HTTP/1.1, (http/1.1)}{127.0.0.1:49780}
+2023-12-05 16:57:54,047 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@409794aa{STARTING}[10.0.6,sto=0] @199896ms
+2023-12-05 17:05:34,323 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@409794aa{STOPPING}[10.0.6,sto=0]
+2023-12-05 17:05:34,327 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@24764d64{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-12-05 17:05:34,337 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@78ae562{/help,null,STOPPED}
+2023-12-05 17:05:44,063 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-06 09:39:36,431 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-06 10:14:28,956 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-12-06 11:19:28,190 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

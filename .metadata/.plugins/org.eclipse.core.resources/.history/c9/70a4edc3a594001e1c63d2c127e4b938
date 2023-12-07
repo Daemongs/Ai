@@ -1,0 +1,7 @@
+package ch05.sec03;
+
+public enum LoginResuit {
+
+	LOGIN_SUCCSESS
+	LOGIN_FAILURE
+}

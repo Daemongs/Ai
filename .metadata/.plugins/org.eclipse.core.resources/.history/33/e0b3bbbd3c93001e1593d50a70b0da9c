@@ -1,0 +1,26 @@
+package ch04.sec01;
+
+public class Switch문02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number = 10;
+		switch (number) {
+		    case 100: System.out.println("백의자리");break;
+		    case 10:System.out.println("십의자리");break;
+		    case 1:System.out.println("일의자리");break;
+		}
+		
+		//if문으로 작성하기
+		if(number==100) {
+			System.out.println("백의자리에요");
+		}else if(number==10) {
+			System.out.println("십의자리에요");
+		}else if(number==1) {
+			System.out.println("일의자리에요");
+		}
+
+
+}
+}

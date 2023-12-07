@@ -1,0 +1,47 @@
+package ch04.sec02;
+
+import java.util.Scanner;
+
+public class 성적프로그램 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("성적프로그램");
+		System.out.println("메뉴를 입력하세요");
+		String menu = sc.nextLine(); //키보드로 "1", "2"
+		int name = 0; //학생명
+		int score = 0; //점수
+		int balance = 0; // 성
+		
+		while(!menu.equals("4")) {
+			System.out.println("---------------------------------");
+			System.out.println("1. 학생명 | 2. 점수 | 3. 출력 | 4. 종료");
+			System.out.println("---------------------------------");
+			System.out.println("선택>");
+			menu = sc.nextLine();
+			
+			switch(menu) {
+			case "1" : System.out.println("학생명은?>");
+						name = sc.nextInt(); 
+						sc.nextLine(); // 엔터키값을 입력 받음
+						break; //switch문을 빠져나가라
+			case "2" : System.out.println("점수는?>");
+						score = sc.nextInt();
+						sc.nextLine();
+						balance = balance - score;
+						break;
+			case "3" : System.out.println("출력>"+balance);
+						break;
+			case "4" : System.out.println("종료");
+						break;
+			default : System.out.println("메뉴를 다시 선택합니다.");
+			}
+			
+		}
+
+
+	}
+
+}
