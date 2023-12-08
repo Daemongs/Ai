@@ -1,0 +1,14 @@
+package ch06.sec06;
+
+public class ShopService {
+
+	public static ShopService getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+		// TODO Auto-generated method stub
+
+	}
+
+}
