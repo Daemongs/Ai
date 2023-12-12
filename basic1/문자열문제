@@ -1,0 +1,206 @@
+letters = "java programming"
+letters[0]
+print(letters[5], letters[1], letters[-1], sep=" ")
+print("---------------------------------------")
+#2번
+number = "43다 6521"
+print(number[4:8])
+print("------------------------------------")
+#3번
+
+s = "홀짝홀짝홀짝홀짝"
+print(s[1 : 8 : 2] )
+#string [시작인덱스 : 종료인덱스 : 증가인덱스]
+print("----------------------------------")
+
+#4번
+p = "PYTHON"
+print(p[5], p[4], p[3], p[2], p[1], p[0], sep="")
+print(p[-1 : -7 :-1])
+print(p[::-1])
+# p[1] = "K"
+# print[1] , 문자의 일부분은 수정할 수 없다.
+# 치환하기
+p=p.replace("Y", "K")
+print(p)
+print(p.replace("N","M")) #일단 바뀐것처럼 보이지만
+print(p) #임시저장만 한 상태이기 때문에 바뀌지 않음
+print("------------------------------")
+
+
+#5번 "-"을 없애고 출력하기
+phone_number="010-888-9999"
+pn1="010"
+pn2="888"
+pn3="9999"
+print(pn1,pn2,pn3)
+print(phone_number.replace("-"," "))
+print("---------------------------")
+
+#6번 문자열 다루기 (공백없이 출력하기)
+print(pn1,pn2,pn3,sep="")
+print(phone_number.replace("-",""))
+print("-------------------------")
+
+#7. url에 저장된 웹 주소에서 com만 출력합니다
+url = "http://gmail.com"
+#힌트 split("문자") #해당문자를 기준으로 분리합니다.
+url = url.split(".")
+print (url[1])
+
+url2 = "http://www.naver.com"
+url2 = url2.split(".")
+print (url2[1])
+print("---------------------")
+
+#8. 부분적인 문자열 수정하기 - 에러 모습 확인하기
+lang="java python"
+# lang[0] = "K", 자바에서 되는 문법임.
+print(lang)
+print(lang.replace("j","K"))
+print("-------------------")
+
+#9. 문자열 부분적으로 수정하기 - 8번을 오류없이 하려면
+# replace('j', "K"), 
+print(lang.replace("ja","Kla"))
+print("-------------------")
+
+
+#10. 아래 코드를 실행하면 결과가 어떻게 될까요?
+st10 = "abcdefABCDEFabc"
+st10 = st10.replace("c", "!")
+print(st10)
+print("-------------------")
+
+
+#11. 아래 코드를 실행하면 결과가 어떻게 될까요?
+
+st11 = "abcdefABCDEFabc"
+print( st11.replace("c", "!") )
+print(st11)
+print("-------------------")
+
+#12. 문자열 합치기
+
+a="123"
+b="456"
+print(a+b)
+print("-------------------")
+
+#13. 문자열 곱하기
+H="Hi!"
+print(H*5)
+print("-------------------")
+
+#14. "+"기호를 150번 나오게 하기
+print("+"*150)
+print("-------------------")
+
+# 15.  문자열 더하기와 곱하기 이용하여 아래와 같이 출력하기
+s1 = "python"
+s2 = "c++"
+s3 = "java"
+s4 =  s1 + ' '+s2 + ' ' + s3 + ' '
+# python c++ java python c++ java  python c++ java  python c++ java  python c++ java  python c++ java 
+# print((s1+ s2+ s3) *6)
+print(s4*6)
+print("-------------------")
+
+#16. 문자열 포매팅으로 출력하기
+#print포맷팅에서 '%s'는 문자열 데이터 타입 '%d' 정수형 데이터타입 '%f' 실수형 데이터 타입입니다
+
+name1 = "홍길동"
+age1 = 25
+eyesight1 = 1.2
+name2 = "이순신"
+age2= 13
+eyesight2 = 0.8
+
+print("이름 : %s 나이 : %d 시력 : %.1f"%(name1, age1, eyesight1))
+print("이름 : %s 나이 : %d 시력 : %.1f"%(name2, age2, eyesight2))
+print("-------------------")
+
+#17. 문자열 출력하기
+#문자열의 format()메서드를 이용하여 풀기
+print("이름 : {} 나이 : {} 시력 : {}".format(name1,age1,eyesight1))
+print("이름 : {} 나이 : {} 시력 : {}".format(name2,age2,eyesight2))
+print("-------------------")
+
+#18. 문자열 출력하기
+#f-string은 문자열 앞에 f가 붙은 형태입니다. f-string을 사용하면 
+# `{변수}`와 같은 형태로 문자열 사이에 타입과 상관없이 값을 출력할 수 있습니다.
+
+print(f"이름 : {name1} 나이 : {age1} 시력 : {eyesight1}")
+print(f"이름 : {name2} 나이 : {age2} 시력 : {eyesight2}")
+print("-------------------")
+
+#19. 컴마를 제거하기
+total = "5,896,124,650"
+total = total.replace(",","")
+print(type(total))
+total = int(total)
+print(total+1-1)
+print("-------------------")
+
+#20. 문자열 슬라이싱
+날짜 = '2024/01(E) 1사분기'
+날짜 = 날짜[:7]
+print(날짜)
+print(f"{날짜}")
+#split
+날짜 = 날짜.split("(")
+print(날짜[0])
+print("-------------------")
+
+
+#21. 문자열의 좌우의 공백을 제거해 보세요
+data = "      공백제거하기   "
+data=data.strip()
+print(f"공백제거한 결과는 {data}")
+print("-------------------")
+
+
+#22. 소문자로 된 문자열을 대문자로 바꿔 보세요.
+#lowerWord = "python is very good"
+lowerWord = "python is very good"
+print(lowerWord.upper());
+
+#23. 대문자로 된 문자열을 소문자로 바꿔 보세요.
+
+upperWord = "PYTHON IS VERY GOOD"
+print (upperWord.lower())
+
+#24. 첫글자만 대문자.
+
+capitalizeWord = 'python quiz'
+print( capitalizeWord.capitalize())
+print("-------------------")
+
+#25. 아래의 파일명이 'csv'로 끝 나면 True로 출력하고 아니면 False라고 출력하세요
+# 힌트 endswitch("csv")
+
+fileName = "abc.csv"
+print( fileName.endswith("csv")) 
+
+if fileName.endswith("csv") :
+    print("엑셀파일입니다")
+    print("-------------------")
+
+
+#26. 아래 파일명이 'csv'로 끝나거나 'xlsx'로 끝났으면 True로 출력하고 아니면 False라고 출력하세요
+#  힌트 endswitch( "csv", "xlsx")
+fileName = "abc.xlsx"
+
+if fileName.endswith(("csv", "xlsx")):
+    print(True)
+else:
+    print(False)
+
+
+
+
+
+
+
+
+
