@@ -37,7 +37,7 @@ public class Classname {
 	}
 	
 	//정적 메소드 선언
-	static void method3()
+	static void method3();
 //	this field1 = 10;
 //	this.method1();
 	field2 = 10;

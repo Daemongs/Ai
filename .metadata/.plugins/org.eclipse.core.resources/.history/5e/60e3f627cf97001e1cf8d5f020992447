@@ -1,9 +1,0 @@
-package ch06.sec06;
-
-public class CalculatorExample {
-
-	public static void main(Stringp[] args) {
-		
-		Calculator calculator = new Calculator();
-	}
-}
