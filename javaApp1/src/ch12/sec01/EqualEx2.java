@@ -1,4 +1,4 @@
-package javaApp1.ch12.sec01;
+package ch12.sec01;
 
 public class EqualEx2 {
 
